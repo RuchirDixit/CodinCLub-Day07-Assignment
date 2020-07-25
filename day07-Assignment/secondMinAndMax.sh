@@ -8,7 +8,7 @@ echo ${Num[*]}
 max=${Num[0]}
 min=${Num[0]}
 
-for (( i=0; i<10; i++ ))
+for (( i=1; i<=10; i++ ))
 do
 	if [[ Num[$i] -gt $max ]]
 	then
